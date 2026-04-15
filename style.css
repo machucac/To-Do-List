@@ -1,21 +1,22 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #ccc8b1b7;
   display: flex;
   justify-content: center;
   padding-top: 50px;
 }
 
-.container {
-  background: white;
+.card {
+  background: rgb(229, 229, 229);
   padding: 20px;
   width: 400px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .todo-input {
@@ -59,4 +60,15 @@ li {
   padding: 6px 10px;
   cursor: pointer;
   border-radius: 5px;
+}
+
+#clearAllBtn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  background: #3f4cab;
+  color: white;
+  cursor: pointer;
 }
